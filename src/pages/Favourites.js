@@ -11,6 +11,7 @@ function FavouritesPage() {
   } else {
     content = <MeetupList meetups={favouriteCtx.favourite} />;
   }
+  
 
   return (
     <section>
